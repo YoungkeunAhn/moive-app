@@ -1,0 +1,9 @@
+.movie{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 90%;
+    padding: 30px;
+    margin: 10px;
+
+    display: flex;
+}
