@@ -15,15 +15,7 @@ h1,h2,h3,h4,h5,h6{
     --movie__title__font-size: 20px;
     --moive__data__font-size: 14px;
 }
-html,body{
-    width: 100%;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-bgcolor);
-}
+
 
 .movie{
     background-color: white;
