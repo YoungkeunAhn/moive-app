@@ -36,10 +36,11 @@ class Home extends React.Component {
         ) : (
           <div className="movies">
             {movies.map((movie) => {
-              console.log(movie);
+              // console.log(movie);
               return (
                 <Movie
                   key={movie.id}
+                  id={movie.id}
                   title={movie.title}
                   year={movie.year}
                   summary={movie.summary}
